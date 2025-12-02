@@ -1,0 +1,15 @@
+/* src/index.css
+ * File ini mengimpor semua basis, komponen, dan utilitas dari Tailwind CSS.
+ * Sebagian besar styling aplikasi dilakukan melalui class Tailwind di file JSX.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Menggunakan font Inter sebagai font dasar untuk seluruh aplikasi */
+* {
+    font-family: 'Inter', sans-serif;
+}
+/* Catatan: Animasi kustom (spin-slow, pulse-slow) diinjeksikan 
+   secara dinamis ke <head> oleh komponen App.jsx agar kompatibel 
+   dengan semua browser dan elemen */
